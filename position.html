@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Tutorial</title>
+    <style>
+        .contanier {
+            background-color: gray;
+            width: 2000px;
+            height: 3000px;
+        }
+        
+        .box {
+            border: 2px solid white;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        
+        #box3 {
+            position: sticky;
+            top: 34px;
+            left: 34px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contanier">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+</body>
+
+</html>
